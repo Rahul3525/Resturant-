@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+width: 100%;
+background-image: linear-gradient(to right, #de6262,#ffb88c);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar-brand{
+    color: white !important;
+    font-weight: 900;
+    margin-left: 0;
+    margin-right: 12px;
+}
+.navbar-brand:hover{
+    color: green !important;
+}
+.nav-link{
+  color: white !important;
+  text-align: center;
+  text-transform: uppercase;
+  margin-right: 15px;
+  font-weight: bold;
+}
+.nav-link:hover{
+    color: darkgreen !important;
+}
+.btn{
+    margin-right: 10px;
+    margin: 8px;
+    border-radius: none;
+    text-align: center;
+}
+
+/* about */
+.containr{
+    background-image: linear-gradient(rgb(152, 157, 152), rgb(167, 174, 176));
+    background-size: cover;
+    width: 100%;
+    margin: 0  auto 0;
+    display: table;
+    box-sizing: border-box;
+    margin-bottom: 22px;
+     
+}
+.row{
+    margin: 20px 0;
+    
+}
+.row h1{
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+}
+.row h5{
+    text-align: center;
+    vertical-align: middle;
+    color: whitesmoke;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+.row h1:hover{
+    color: greenyellow;
+}
+
+.column{
+    background: #333;
+    display: table-cell;
+    padding: 10px;
+    width: 33.33333%;
+    text-align: center;
+    color: #fff;
+    vertical-align: middle;
+    border-right: 15px solid black;
+    cursor: pointer;
+ }
+.column:hover{
+      box-shadow: 22px;
+}
+.btnn {
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .success {
+    border-color: #04AA6D;
+    color: green;
+  }
+  
+  .success:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+
+/* footer */
+.container-fluid{
+    max-width: 1170px;
+    /* background-color:whitesmoke; */
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+  }
+.footer{
+    background: url(./image/footer.png);
+    padding: 45px 0;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-left: 30px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.footer-col h4::before{
+content: '';
+position: absolute;
+left: 0;
+background-color: #e91e63;
+height: 2px;
+box-sizing: border-box;
+width: 68px;
+bottom: 9px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+    font-size: 16px;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.footer-col .social-link a{
+display: inline-block;
+height: 40px;
+width: 40px;
+background-color:rgba(255,255 ,255,0.2);
+margin: 0 10px 10px 0;
+text-align: center;
+line-height: 40px;
+border-radius: 50px;
+color: #ffffff;
+transition: all 0.5s ease;
+}
+.footer-col .social-link a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+    
+}
+
+/* contact */
+form{
+    box-shadow:  2px 6px 100px;
+ }
+.display-6{
+     padding-top: 82px;
+    color: #333333;
+    font-weight: 500;
+    }
+
+
+    /* our-team */
+    .containerr{
+        background: linear-gradient(lightblue,lightgreen);
+        padding-top:22px ;
+        padding-bottom: 2px;
+    }
+    .containerr h1{
+        text-align: center;
+        text-transform: uppercase;
+        color: black;
+
+    }
+    .containerr .row{
+        padding-top: 22px;
+    }
+    
+    .row .col-md-3 img{
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        border: 10px solid  #fff;
+    }
+    .row .col-md-3 h2{
+       padding-left: 62px;
+       text-transform: uppercase;
+    }
+    .row .col-md-3 h2:hover{
+        color: rgb(134, 73, 209);
+        transform: scale(1.03);
+        cursor: pointer;
+     }
+    .row .col-md-3 p{
+        padding-left: 62px;
+     }
+    .row .col-md-3 img:hover{
+        box-shadow: 0 10px 15px rgba(0,0,0,.3);
+        transform: scale(1.03);
+        cursor: pointer;
+    }
+
+    .gallery h2{
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
